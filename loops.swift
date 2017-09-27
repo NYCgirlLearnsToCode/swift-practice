@@ -12,6 +12,8 @@ let fastFood = ["coke": 1, "sprite":2]
 for (soda, number) in fastFood{
     print("\(soda) is \(number)")
 }
+
+//looping over a range
 var myFirstInt:Int = 0
 for i in 1...5{
     myFirstInt += 1
@@ -20,6 +22,7 @@ for i in 1...5{
     print("myFirstInt equals \(myFirstInt) at iteration \(i)")
 }
 
+//printing the changing value of i to the console
 var mySecondInt: Int = 1
 for i in 1...3{
 	mySecondInt += 1
